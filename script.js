@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const n = parseInt(inputNumero.value);
 
         if (isNaN(n) || n < 0) {
-            alert("Digite um número válido (0 ou maior).");
+            alert("Digite um número válido .");
 
             return;
         }
